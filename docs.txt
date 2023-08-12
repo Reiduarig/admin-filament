@@ -1,0 +1,9 @@
+1. Al tratar con paquetes que no están en producción, como es el caso de
+   de livewire3 debemos indicar "minimum-stability": "dev", en el archivo composer.json
+
+2. composer require filament/filament. última version de filament
+
+3 Instalar los paquetes de filament
+  php artisan filament:install --panels
+  En windows añadir al comando --ignore-platform-reqs
+  php artisan filament:install --panels --ignore-platform-reqs
