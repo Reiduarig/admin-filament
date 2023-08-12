@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 
 class Paciente extends Model
 {
-    public function pacientes(): HasMany
+    public function cliente(): BelongsTo
     {
         return $this->belongsTo(Cliente::class);
     }
